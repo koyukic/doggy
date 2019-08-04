@@ -37,12 +37,12 @@ function checkAccount() {
     sleep(200);
     map['賣單記錄'] = getTable(req, 'http://ivg99.com/saber/trade/mytradesell.html', [4, 0]);
     sleep(200);
-    //map['领养中'] = getTable(req, 'http://ivg99.com/saber/mills/mymillsadopt.html', []);
-    //sleep(200);
-    //map['已成长'] = getTable(req, 'http://ivg99.com/saber/mills/mymillsgroup.html', []);
-    //sleep(200);
-    //map['交易中'] = getTable(req, 'http://ivg99.com/saber/mills/mymillstrading.html', []);
-    //sleep(200);
+    map['领养中'] = getTable(req, 'http://ivg99.com/saber/mills/mymillsadopt.html', []);
+    sleep(200);
+    map['已成长'] = getTable(req, 'http://ivg99.com/saber/mills/mymillsgroup.html', []);
+    sleep(200);
+    map['交易中'] = getTable(req, 'http://ivg99.com/saber/mills/mymillstrading.html', []);
+    sleep(200);
     //map['已收益'] = getTable(req, 'http://ivg99.com/saber/mills/mymillstrading.html', []);
     //sleep(200);
   }
